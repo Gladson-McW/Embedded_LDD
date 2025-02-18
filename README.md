@@ -12,7 +12,18 @@
 
   getting character string, integer and integer array as a input for module file (.ko file)
   
-# Task 4 
+# Task 4 - Device Major And Minor Number
         Task 4A - Static Allocation of Device Major and Minor Number
         Task 4B - Dynamic Allocation of Device Major and Minor Number
+
+# 18/02/2025
+
+# Device File 
+
+# Device_Fileops
+
+# IOCTL
+
+# Complete Character Driver Implementation
+
         
