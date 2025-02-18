@@ -18,12 +18,12 @@
 
 # 18/02/2025
 
-# Device File 
+# Task 5 - Device File 
 
-# Device_Fileops
+# Task 6 - Device_Fileops
 
-# IOCTL
+# Task 7 -IOCTL
 
-# Complete Character Driver Implementation
+# Task 8 - Complete Character Driver Implementation
 
         
