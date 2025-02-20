@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/Maj_Min_Dy/Maj_min_dy.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/mcw_cbe/Embedded_LDD/Maj_Min_Dy/Maj_min_dy.ko /home/mcw_cbe/Embedded_LDD/Maj_Min_Dy/Maj_min_dy.o /home/mcw_cbe/Embedded_LDD/Maj_Min_Dy/Maj_min_dy.mod.o;  true
