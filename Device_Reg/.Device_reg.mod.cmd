@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/Device_Reg/Device_reg.mod := printf '%s\n'   Device_reg.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/Device_Reg/"$$0) }' > /home/mcw_cbe/Embedded_LDD/Device_Reg/Device_reg.mod
