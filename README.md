@@ -1,4 +1,7 @@
-# Embedded Task - 17/02/2025
+# Linux Device Drivers
+
+
+# 17/02/2025
 
 # Task 1 - Setting up Raspberry Pi board
 
@@ -22,8 +25,17 @@
 
 # Task 6 - Device_Fileops
 
-# Task 7 -IOCTL
 
-# Task 8 - Complete Character Driver Implementation
+# Task 7 - Complete Character Driver Implementation
 
-        
+# 19/02/2025
+
+# Task 8 - loadable Driver for Every System Reboot 
+
+# Task 9 - Input Output Control Character Driver Implementation
+
+# Task 10 - Process File System Character Driver Implementation
+
+# 20/02/2025
+
+
