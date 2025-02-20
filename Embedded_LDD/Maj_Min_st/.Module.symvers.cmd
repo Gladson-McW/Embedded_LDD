@@ -1,1 +1,0 @@
-savedcmd_/home/mcw_cbe/Embedded_LDD/Maj_Min_st/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/mcw_cbe/Embedded_LDD/Maj_Min_st/Module.symvers -T /home/mcw_cbe/Embedded_LDD/Maj_Min_st/modules.order -i Module.symvers -e 

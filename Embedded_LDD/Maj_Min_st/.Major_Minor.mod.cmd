@@ -1,1 +1,0 @@
-savedcmd_/home/mcw_cbe/Embedded_LDD/Maj_Min_st/Major_Minor.mod := printf '%s\n'   Major_Minor.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/Maj_Min_st/"$$0) }' > /home/mcw_cbe/Embedded_LDD/Maj_Min_st/Major_Minor.mod
