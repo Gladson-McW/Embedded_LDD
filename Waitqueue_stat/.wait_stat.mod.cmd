@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/Waitqueue_stat/wait_stat.mod := printf '%s\n'   wait_stat.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/Waitqueue_stat/"$$0) }' > /home/mcw_cbe/Embedded_LDD/Waitqueue_stat/wait_stat.mod

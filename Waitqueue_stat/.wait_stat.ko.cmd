@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/Waitqueue_stat/wait_stat.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/mcw_cbe/Embedded_LDD/Waitqueue_stat/wait_stat.ko /home/mcw_cbe/Embedded_LDD/Waitqueue_stat/wait_stat.o /home/mcw_cbe/Embedded_LDD/Waitqueue_stat/wait_stat.mod.o;  true
