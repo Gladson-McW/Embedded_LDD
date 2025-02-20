@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/Maj_Min_Dy/Maj_min_dy.mod := printf '%s\n'   Maj_min_dy.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/Maj_Min_Dy/"$$0) }' > /home/mcw_cbe/Embedded_LDD/Maj_Min_Dy/Maj_min_dy.mod
