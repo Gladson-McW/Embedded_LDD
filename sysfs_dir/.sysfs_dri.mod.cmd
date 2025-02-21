@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/sysfs_dir/sysfs_dri.mod := printf '%s\n'   sysfs_dri.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/sysfs_dir/"$$0) }' > /home/mcw_cbe/Embedded_LDD/sysfs_dir/sysfs_dri.mod

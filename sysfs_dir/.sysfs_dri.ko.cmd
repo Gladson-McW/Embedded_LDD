@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/sysfs_dir/sysfs_dri.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/mcw_cbe/Embedded_LDD/sysfs_dir/sysfs_dri.ko /home/mcw_cbe/Embedded_LDD/sysfs_dir/sysfs_dri.o /home/mcw_cbe/Embedded_LDD/sysfs_dir/sysfs_dri.mod.o;  true
