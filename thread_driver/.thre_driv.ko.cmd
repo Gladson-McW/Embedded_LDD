@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.ko /home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.o /home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.mod.o;  true

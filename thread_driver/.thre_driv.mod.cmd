@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.mod := printf '%s\n'   thre_driv.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/thread_driver/"$$0) }' > /home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.mod
