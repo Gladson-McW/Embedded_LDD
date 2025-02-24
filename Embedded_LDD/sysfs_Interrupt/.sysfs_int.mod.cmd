@@ -1,0 +1,1 @@
+savedcmd_/home/gladson/Embedded_LDD/sysfs_Interrupt/sysfs_int.mod := printf '%s\n'   sysfs_int.o | awk '!x[$$0]++ { print("/home/gladson/Embedded_LDD/sysfs_Interrupt/"$$0) }' > /home/gladson/Embedded_LDD/sysfs_Interrupt/sysfs_int.mod
