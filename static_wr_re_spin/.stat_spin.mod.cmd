@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/static_wr_re_spin/stat_spin.mod := printf '%s\n'   stat_spin.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/static_wr_re_spin/"$$0) }' > /home/mcw_cbe/Embedded_LDD/static_wr_re_spin/stat_spin.mod
