@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/timer_simple/timer_sim.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/mcw_cbe/Embedded_LDD/timer_simple/timer_sim.ko /home/mcw_cbe/Embedded_LDD/timer_simple/timer_sim.o /home/mcw_cbe/Embedded_LDD/timer_simple/timer_sim.mod.o;  true
