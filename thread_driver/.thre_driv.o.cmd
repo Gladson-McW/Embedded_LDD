@@ -979,6 +979,192 @@ deps_/home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.o := \
   /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/delay.h \
   arch/arm64/include/generated/asm/delay.h \
   /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/delay.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/gpio.h \
+    $(wildcard include/config/GPIOLIB) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/gpio/consumer.h \
+    $(wildcard include/config/GPIO_SYSFS) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/serial.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/linux/serial.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/linux/tty_flags.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/linux/serial_reg.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/serial_core.h \
+    $(wildcard include/config/SERIAL_CORE_CONSOLE) \
+    $(wildcard include/config/CONSOLE_POLL) \
+    $(wildcard include/config/SERIAL_EARLYCON) \
+    $(wildcard include/config/MAGIC_SYSRQ_SERIAL) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/console.h \
+    $(wildcard include/config/HW_CONSOLE) \
+    $(wildcard include/config/TTY) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/interrupt.h \
+    $(wildcard include/config/IRQ_FORCED_THREADING) \
+    $(wildcard include/config/GENERIC_IRQ_PROBE) \
+    $(wildcard include/config/IRQ_TIMINGS) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/irqreturn.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/hardirq.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/context_tracking_state.h \
+    $(wildcard include/config/CONTEXT_TRACKING_USER) \
+    $(wildcard include/config/CONTEXT_TRACKING) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/ftrace_irq.h \
+    $(wildcard include/config/HWLAT_TRACER) \
+    $(wildcard include/config/OSNOISE_TRACER) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/vtime.h \
+    $(wildcard include/config/VIRT_CPU_ACCOUNTING) \
+    $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/hardirq.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/irq.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/irq.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/kvm_arm.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/esr.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/hardirq.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/irq.h \
+    $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
+    $(wildcard include/config/GENERIC_IRQ_IPI) \
+    $(wildcard include/config/IRQ_DOMAIN_HIERARCHY) \
+    $(wildcard include/config/DEPRECATED_IRQ_CPU_ONOFFLINE) \
+    $(wildcard include/config/GENERIC_IRQ_MIGRATION) \
+    $(wildcard include/config/GENERIC_PENDING_IRQ) \
+    $(wildcard include/config/HARDIRQS_SW_RESEND) \
+    $(wildcard include/config/GENERIC_IRQ_LEGACY) \
+    $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/irqhandler.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/io.h \
+    $(wildcard include/config/HAS_IOPORT_MAP) \
+    $(wildcard include/config/PCI) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/io.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/pgtable.h \
+    $(wildcard include/config/HIGHPTE) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
+    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
+    $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
+    $(wildcard include/config/HAVE_ARCH_TRANSPARENT_HUGEPAGE_PUD) \
+    $(wildcard include/config/HAVE_ARCH_SOFT_DIRTY) \
+    $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
+    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
+    $(wildcard include/config/X86_ESPFIX64) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/pgtable.h \
+    $(wildcard include/config/PAGE_TABLE_CHECK) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/proc-fns.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/pgtable-prot.h \
+    $(wildcard include/config/ARM64_BTI_KERNEL) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/tlbflush.h \
+    $(wildcard include/config/ARM64_WORKAROUND_REPEAT_TLBI) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/mmu_notifier.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/mmap_lock.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/interval_tree.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/fixmap.h \
+    $(wildcard include/config/ACPI_APEI_GHES) \
+    $(wildcard include/config/ARM_SDE_INTERFACE) \
+    $(wildcard include/config/UNMAP_KERNEL_AT_EL0) \
+    $(wildcard include/config/RELOCATABLE) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/fixmap.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/page_table_check.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/pgtable_uffd.h \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_WP) \
+  arch/arm64/include/generated/asm/early_ioremap.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/io.h \
+    $(wildcard include/config/GENERIC_IOMAP) \
+    $(wildcard include/config/TRACE_MMIO_ACCESS) \
+    $(wildcard include/config/GENERIC_IOREMAP) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
+    $(wildcard include/config/GENERIC_PCI_IOMAP) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/logic_pio.h \
+    $(wildcard include/config/INDIRECT_PIO) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/fwnode.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/vmalloc.h \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/arch/arm64/include/asm/vmalloc.h \
+    $(wildcard include/config/PTDUMP_DEBUGFS) \
+  arch/arm64/include/generated/asm/irq_regs.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/irq_regs.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/irqdesc.h \
+    $(wildcard include/config/GENERIC_IRQ_DEBUGFS) \
+    $(wildcard include/config/SPARSE_IRQ) \
+    $(wildcard include/config/IRQ_DOMAIN) \
+  arch/arm64/include/generated/asm/hw_irq.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/asm-generic/hw_irq.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/circ_buf.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/tty.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/linux/major.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/linux/termios.h \
+  arch/arm64/include/generated/uapi/asm/termios.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/asm-generic/termios.h \
+  arch/arm64/include/generated/uapi/asm/termbits.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/asm-generic/termbits.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/asm-generic/termbits-common.h \
+  arch/arm64/include/generated/uapi/asm/ioctls.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/asm-generic/ioctls.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/tty_buffer.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/tty_driver.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/seq_file.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/string_helpers.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/ctype.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/string_choices.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/tty_ldisc.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/tty_port.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/kfifo.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/scatterlist.h \
+    $(wildcard include/config/NEED_SG_DMA_LENGTH) \
+    $(wildcard include/config/NEED_SG_DMA_FLAGS) \
+    $(wildcard include/config/DEBUG_SG) \
+    $(wildcard include/config/SGL_ALLOC) \
+    $(wildcard include/config/ARCH_NO_SG_CHAIN) \
+    $(wildcard include/config/SG_POOL) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/mm.h \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
+    $(wildcard include/config/MEM_SOFT_DIRTY) \
+    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
+    $(wildcard include/config/ARCH_HAS_PKEYS) \
+    $(wildcard include/config/PPC) \
+    $(wildcard include/config/X86_USER_SHADOW_STACK) \
+    $(wildcard include/config/X86) \
+    $(wildcard include/config/PARISC) \
+    $(wildcard include/config/SPARC64) \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
+    $(wildcard include/config/SHMEM) \
+    $(wildcard include/config/MIGRATION) \
+    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
+    $(wildcard include/config/DEBUG_VM_RB) \
+    $(wildcard include/config/PAGE_POISONING) \
+    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
+    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
+    $(wildcard include/config/DEBUG_PAGEALLOC) \
+    $(wildcard include/config/ARCH_WANT_OPTIMIZE_DAX_VMEMMAP) \
+    $(wildcard include/config/HUGETLBFS) \
+    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/range.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/page_ext.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/stacktrace.h \
+    $(wildcard include/config/ARCH_STACKWALK) \
+    $(wildcard include/config/STACKTRACE) \
+    $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/stackdepot.h \
+    $(wildcard include/config/STACKDEPOT_ALWAYS_INIT) \
+    $(wildcard include/config/STACKDEPOT) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/page_ref.h \
+    $(wildcard include/config/DEBUG_PAGE_REF) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/memremap.h \
+    $(wildcard include/config/DEVICE_PRIVATE) \
+    $(wildcard include/config/PCI_P2PDMA) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/huge_mm.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/sched/coredump.h \
+    $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/vmstat.h \
+    $(wildcard include/config/VM_EVENT_COUNTERS) \
+    $(wildcard include/config/DEBUG_TLBFLUSH) \
+    $(wildcard include/config/PER_VMA_LOCK_STATS) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/vm_event_item.h \
+    $(wildcard include/config/MEMORY_BALLOON) \
+    $(wildcard include/config/BALLOON_COMPACTION) \
+    $(wildcard include/config/ZSWAP) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/linux/tty.h \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/linux/sysrq.h \
+    $(wildcard include/config/MAGIC_SYSRQ) \
+  /usr/src/linux-headers-6.6.74+rpt-common-rpi/include/uapi/linux/serial_core.h \
 
 /home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.o: $(deps_/home/mcw_cbe/Embedded_LDD/thread_driver/thre_driv.o)
 

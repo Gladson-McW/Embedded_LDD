@@ -35,13 +35,23 @@ MODULE_INFO(retpoline, "Y");
 
 static const struct modversion_info ____versions[]
 __used __section("__versions") = {
+	{ 0xc6e2b94b, "filp_open" },
 	{ 0x122c3a7e, "_printk" },
 	{ 0xf9a482f9, "msleep" },
+	{ 0xfff27cf0, "kernel_read" },
 	{ 0xb3f7646e, "kthread_should_stop" },
+	{ 0x9ec6ca96, "ktime_get_real_ts64" },
+	{ 0xe4ff4742, "kernel_write" },
+	{ 0xbc820d1d, "filp_close" },
+	{ 0xf0fdf6cb, "__stack_chk_fail" },
+	{ 0xfdb0ec04, "gpiod_get_index" },
+	{ 0x5172d28d, "gpiod_set_value" },
+	{ 0x32802b29, "gpiod_put" },
 	{ 0xe3ec2f2b, "alloc_chrdev_region" },
 	{ 0xfde7dc9b, "cdev_init" },
 	{ 0x282d49c2, "cdev_add" },
 	{ 0xdde25e1, "class_create" },
+	{ 0xd4ae550c, "device_create" },
 	{ 0xef16c549, "kthread_create_on_node" },
 	{ 0xe82ab024, "wake_up_process" },
 	{ 0x378b3561, "class_destroy" },
@@ -55,4 +65,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "9F34BA49C336CBBA9C26E07");
+MODULE_INFO(srcversion, "748404C302AAC3B3FAB60F2");
