@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/simple_spinlock/spin_simp.mod := printf '%s\n'   spin_simp.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/simple_spinlock/"$$0) }' > /home/mcw_cbe/Embedded_LDD/simple_spinlock/spin_simp.mod
