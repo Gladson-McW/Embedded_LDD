@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/high_timer/high_tim.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/mcw_cbe/Embedded_LDD/high_timer/high_tim.ko /home/mcw_cbe/Embedded_LDD/high_timer/high_tim.o /home/mcw_cbe/Embedded_LDD/high_timer/high_tim.mod.o;  true
