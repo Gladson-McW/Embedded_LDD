@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/completion/compl.mod := printf '%s\n'   compl.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/completion/"$$0) }' > /home/mcw_cbe/Embedded_LDD/completion/compl.mod
