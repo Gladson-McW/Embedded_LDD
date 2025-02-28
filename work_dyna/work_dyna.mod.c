@@ -38,7 +38,7 @@ __used __section("__versions") = {
 	{ 0x122c3a7e, "_printk" },
 	{ 0xbcab6ee6, "sscanf" },
 	{ 0x3c3ff9fd, "sprintf" },
-	{ 0xa0eae826, "smp_call_function" },
+	{ 0x6228c21f, "smp_call_function_single" },
 	{ 0xe3ec2f2b, "alloc_chrdev_region" },
 	{ 0xed44a979, "cdev_init" },
 	{ 0x411ffbe0, "cdev_add" },
@@ -53,7 +53,6 @@ __used __section("__versions") = {
 	{ 0x4e7480ee, "kobject_put" },
 	{ 0x42692db9, "sysfs_remove_file_ns" },
 	{ 0x69a20af4, "device_destroy" },
-	{ 0x7a2af7b4, "cpu_number" },
 	{ 0x2d3385d3, "system_wq" },
 	{ 0xc5b6f236, "queue_work_on" },
 	{ 0x6f6ab014, "module_layout" },
@@ -62,4 +61,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "DC06CA18EA9134400F60439");
+MODULE_INFO(srcversion, "1D9F7B96401DC34F1EE288C");

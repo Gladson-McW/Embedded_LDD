@@ -1,1 +1,0 @@
-savedcmd_/home/mcw_cbe/Embedded_LDD/work_stat/work_stat.mod := printf '%s\n'   work_stat.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/work_stat/"$$0) }' > /home/mcw_cbe/Embedded_LDD/work_stat/work_stat.mod

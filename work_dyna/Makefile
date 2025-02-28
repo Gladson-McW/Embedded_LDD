@@ -1,5 +1,5 @@
 
-obj-m += work_stat.o
+obj-m += work_dyna.o
 
 KOBJ = /lib/modules/$(shell uname -r)/build
 
