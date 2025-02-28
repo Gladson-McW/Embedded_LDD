@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/link_list/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/mcw_cbe/Embedded_LDD/link_list/Module.symvers -T /home/mcw_cbe/Embedded_LDD/link_list/modules.order -i Module.symvers -e 

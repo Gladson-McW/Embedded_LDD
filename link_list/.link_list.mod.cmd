@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/link_list/link_list.mod := printf '%s\n'   link_list.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/link_list/"$$0) }' > /home/mcw_cbe/Embedded_LDD/link_list/link_list.mod
