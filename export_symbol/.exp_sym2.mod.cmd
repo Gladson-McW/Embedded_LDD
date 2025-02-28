@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/export_symbol/exp_sym2.mod := printf '%s\n'   exp_sym2.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/export_symbol/"$$0) }' > /home/mcw_cbe/Embedded_LDD/export_symbol/exp_sym2.mod

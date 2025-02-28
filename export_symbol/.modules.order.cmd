@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/export_symbol/modules.order := {   echo /home/mcw_cbe/Embedded_LDD/export_symbol/exp_sym1.o;   echo /home/mcw_cbe/Embedded_LDD/export_symbol/exp_sym2.o; :; } > /home/mcw_cbe/Embedded_LDD/export_symbol/modules.order
