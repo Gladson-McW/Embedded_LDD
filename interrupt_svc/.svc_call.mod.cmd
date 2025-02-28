@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/interrupt_svc/svc_call.mod := printf '%s\n'   svc_call.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/interrupt_svc/"$$0) }' > /home/mcw_cbe/Embedded_LDD/interrupt_svc/svc_call.mod
