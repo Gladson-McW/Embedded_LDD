@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/seqlock/seq_lock.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/mcw_cbe/Embedded_LDD/seqlock/seq_lock.ko /home/mcw_cbe/Embedded_LDD/seqlock/seq_lock.o /home/mcw_cbe/Embedded_LDD/seqlock/seq_lock.mod.o;  true
