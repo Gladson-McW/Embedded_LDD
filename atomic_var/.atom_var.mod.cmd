@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/atomic_var/atom_var.mod := printf '%s\n'   atom_var.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/atomic_var/"$$0) }' > /home/mcw_cbe/Embedded_LDD/atomic_var/atom_var.mod
