@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/i2c_driver/bmp280temp_driver.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/mcw_cbe/Embedded_LDD/i2c_driver/bmp280temp_driver.ko /home/mcw_cbe/Embedded_LDD/i2c_driver/bmp280temp_driver.o /home/mcw_cbe/Embedded_LDD/i2c_driver/bmp280temp_driver.mod.o;  true
