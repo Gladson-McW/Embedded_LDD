@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/usb_driver/usb_driver.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/mcw_cbe/Embedded_LDD/usb_driver/usb_driver.ko /home/mcw_cbe/Embedded_LDD/usb_driver/usb_driver.o /home/mcw_cbe/Embedded_LDD/usb_driver/usb_driver.mod.o;  true
