@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/poll_linux/poll_linux.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/mcw_cbe/Embedded_LDD/poll_linux/poll_linux.ko /home/mcw_cbe/Embedded_LDD/poll_linux/poll_linux.o /home/mcw_cbe/Embedded_LDD/poll_linux/poll_linux.mod.o;  true
