@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/select_linux/select_linux.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/mcw_cbe/Embedded_LDD/select_linux/select_linux.ko /home/mcw_cbe/Embedded_LDD/select_linux/select_linux.o /home/mcw_cbe/Embedded_LDD/select_linux/select_linux.mod.o;  true

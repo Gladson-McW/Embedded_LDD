@@ -1,0 +1,1 @@
+savedcmd_/home/mcw_cbe/Embedded_LDD/select_linux/select_linux.mod := printf '%s\n'   select_linux.o | awk '!x[$$0]++ { print("/home/mcw_cbe/Embedded_LDD/select_linux/"$$0) }' > /home/mcw_cbe/Embedded_LDD/select_linux/select_linux.mod
